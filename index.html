@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Research Assistance for Electronic Resources</title>
+    <meta name="description" content="Professional research assistance service for finding electronic books, articles, and standards. Legal resource guidance for educational purposes.">
+    <meta name="keywords" content="research assistance, e-book finding, article access, format conversion, OCR, standards research, educational resources">
+    <meta property="og:title" content="Professional Research Assistance Service">
+    <meta property="og:description" content="Guiding you to legitimate resources for educational purposes">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://yourdomain.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -13,7 +19,7 @@
         }
         
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 20px;
@@ -32,6 +38,8 @@
             margin: 40px auto;
             animation: fadeInUp 0.8s ease-out;
             background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%239C92AC' fill-opacity='0.04' fill-rule='evenodd'/%3E%3C/svg%3E");
+            will-change: transform;
+            backface-visibility: hidden;
         }
         
         @keyframes fadeInUp {
@@ -91,6 +99,7 @@
             margin-bottom: 70px;
         }
         
+        /* 为不同卡片设计差异化背景 */
         .service-card {
             border-radius: 20px;
             padding: 40px 35px;
@@ -101,28 +110,36 @@
             overflow: hidden;
             border: 1px solid rgba(255, 255, 255, 0.8);
             font-weight: 500;
+            will-change: transform;
+            backface-visibility: hidden;
         }
         
+        /* 卡片1：淡蓝渐变 */
         .service-card:nth-child(1) {
             background: linear-gradient(135deg, #f0f8fb 0%, #e8f4f8 100%);
         }
         
+        /* 卡片2：淡紫渐变 */
         .service-card:nth-child(2) {
             background: linear-gradient(135deg, #fef7fb 0%, #fdf2f8 100%);
         }
         
+        /* 卡片3：淡绿渐变 */
         .service-card:nth-child(3) {
             background: linear-gradient(135deg, #f5fafe 0%, #eaf6fa 100%);
         }
         
+        /* 卡片4：淡黄渐变 */
         .service-card:nth-child(4) {
             background: linear-gradient(135deg, #faf6ed 0%, #f7f3e9 100%);
         }
         
+        /* 卡片5：淡粉渐变 */
         .service-card:nth-child(5) {
             background: linear-gradient(135deg, #fef0f0 0%, #fee8e8 100%);
         }
         
+        /* 卡片6：淡青渐变 */
         .service-card:nth-child(6) {
             background: linear-gradient(135deg, #e8f4f8 0%, #eaf6fa 100%);
         }
@@ -161,6 +178,7 @@
             box-shadow: 0 8px 20px rgba(118, 75, 162, 0.25);
         }
         
+        /* 为不同卡片图标设计差异化渐变 */
         .service-card:nth-child(1) .service-icon {
             background: linear-gradient(135deg, #4299e1, #38b2ac);
         }
@@ -211,6 +229,7 @@
             border-radius: 2px;
         }
         
+        /* 为不同卡片标题下划线匹配对应颜色 */
         .service-card:nth-child(1) h3::after { background: #4299e1; }
         .service-card:nth-child(2) h3::after { background: #9f7aea; }
         .service-card:nth-child(3) h3::after { background: #38b2ac; }
@@ -236,9 +255,16 @@
             border-left: 3px solid #4299e1;
         }
         
-        .price-tag {
+        .price-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .price-range {
             font-size: 2.4rem;
-            font-weight: 700;
+            font-weight: 800;
+            letter-spacing: -0.5px;
             margin-bottom: 15px;
             display: inline-block;
             padding: 10px 20px;
@@ -247,37 +273,44 @@
             text-shadow: 0 1px 2px rgba(0,0,0,0.05);
         }
         
-        .service-card:nth-child(1) .price-tag {
+        .price-unit {
+            font-size: 1.2rem;
+            font-weight: 500;
+            opacity: 0.9;
+        }
+        
+        /* 为不同卡片价格设计差异化背景 */
+        .service-card:nth-child(1) .price-range {
             color: #4299e1;
             background: rgba(66, 153, 225, 0.1);
         }
         
-        .service-card:nth-child(2) .price-tag {
+        .service-card:nth-child(2) .price-range {
             color: #9f7aea;
             background: rgba(159, 122, 234, 0.1);
         }
         
-        .service-card:nth-child(3) .price-tag {
+        .service-card:nth-child(3) .price-range {
             color: #38b2ac;
             background: rgba(56, 178, 172, 0.1);
         }
         
-        .service-card:nth-child(4) .price-tag {
+        .service-card:nth-child(4) .price-range {
             color: #ed8936;
             background: rgba(237, 137, 54, 0.1);
         }
         
-        .service-card:nth-child(5) .price-tag {
+        .service-card:nth-child(5) .price-range {
             color: #e53e3e;
             background: rgba(229, 62, 62, 0.1);
         }
         
-        .service-card:nth-child(6) .price-tag {
+        .service-card:nth-child(6) .price-range {
             color: #4299e1;
             background: rgba(66, 153, 225, 0.1);
         }
         
-        .service-card:hover .price-tag {
+        .service-card:hover .price-range {
             transform: scale(1.05);
             box-shadow: 0 5px 15px rgba(0,0,0,0.08);
         }
@@ -289,6 +322,8 @@
             margin-bottom: 50px;
             border-left: 5px solid #e53e3e;
             box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            will-change: transform;
+            backface-visibility: hidden;
         }
         
         .disclaimer-section h2 {
@@ -330,6 +365,8 @@
             position: relative;
             overflow: hidden;
             box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+            will-change: transform;
+            backface-visibility: hidden;
         }
         
         .contact-section::before {
@@ -431,12 +468,7 @@
             font-weight: 500;
         }
         
-        .copyright-note {
-            font-size: 0.9rem;
-            color: #718096;
-            margin-top: 15px;
-        }
-        
+        /* 响应式设计改进 */
         @media (max-width: 768px) {
             .container {
                 padding: 35px 20px;
@@ -468,7 +500,7 @@
                 font-size: 1.05rem;
             }
             
-            .price-tag {
+            .price-range {
                 font-size: 2rem;
             }
             
@@ -489,6 +521,108 @@
                 width: 100%;
                 max-width: 320px;
                 font-size: 1.1rem;
+                min-height: 60px;
+            }
+        }
+        
+        /* 极小型设备优化 */
+        @media (max-width: 380px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .header p {
+                font-size: 1rem;
+            }
+            
+            .service-card {
+                padding: 25px 15px;
+            }
+            
+            .service-icon {
+                width: 80px;
+                height: 80px;
+                font-size: 2rem;
+            }
+            
+            .price-range {
+                font-size: 1.6rem;
+                padding: 8px 12px;
+            }
+            
+            .social-btn {
+                padding: 15px 25px;
+                min-width: auto;
+                width: 100%;
+            }
+            
+            .disclaimer-section h2 {
+                font-size: 1.5rem;
+            }
+        }
+        
+        /* 触摸设备优化 */
+        @media (hover: none) and (pointer: coarse) {
+            .service-card:hover {
+                transform: none;
+            }
+            
+            .service-card:active {
+                transform: scale(0.98);
+            }
+            
+            .social-btn:hover {
+                transform: none;
+            }
+            
+            .social-btn:active {
+                transform: scale(0.98);
+            }
+        }
+        
+        /* 减少动画偏好 */
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+            
+            .service-card,
+            .social-btn {
+                transition: none !important;
+            }
+        }
+        
+        /* 打印样式 */
+        @media print {
+            body {
+                background: white !important;
+            }
+            
+            .container {
+                box-shadow: none;
+                background: white;
+                padding: 20px;
+                margin: 0;
+                max-width: 100%;
+            }
+            
+            .social-buttons,
+            .contact-section {
+                display: none;
+            }
+            
+            .service-card {
+                box-shadow: none;
+                border: 1px solid #ddd;
+                break-inside: avoid;
+            }
+            
+            .service-icon {
+                box-shadow: none;
             }
         }
     </style>
@@ -497,72 +631,90 @@
     <div class="container">
         <div class="header">
             <h1>Professional Research Assistance Service</h1>
-            <p>Guiding you to legitimate resources • Educational purpose only • Respect for intellectual property</p>
+            <p>Guiding you to legitimate resources • Educational purpose only</p>
         </div>
 
         <div class="services-grid">
-            <div class="service-card">
-                <div class="service-icon">
+            <div class="service-card" role="article" aria-labelledby="service1-title">
+                <div class="service-icon" aria-hidden="true">
                     <i class="fas fa-book"></i>
                 </div>
-                <h3>Chinese E-book Research Assistance</h3>
+                <h3 id="service1-title">Chinese E-book Research Assistance</h3>
                 <p>We assist you in locating legally available Chinese e-books from public libraries, open-access platforms, and authorized distributors.</p>
                 <div class="legal-note">We only guide you to legally accessible resources and do not distribute copyrighted materials.</div>
-                <div class="price-tag">$4/research</div>
+                <div class="price-container">
+                    <div class="price-range">$4</div>
+                    <span class="price-unit">per research request</span>
+                </div>
             </div>
 
-            <div class="service-card">
-                <div class="service-icon">
+            <div class="service-card" role="article" aria-labelledby="service2-title">
+                <div class="service-icon" aria-hidden="true">
                     <i class="fas fa-book-open"></i>
                 </div>
-                <h3>English E-book Research Assistance</h3>
+                <h3 id="service2-title">English E-book Research Assistance</h3>
                 <p>We help you find legally accessible English e-books through legitimate channels like public domain repositories and library partnerships.</p>
                 <div class="legal-note">All resources we help locate are from legitimate, authorized sources.</div>
-                <div class="price-tag">$4/research</div>
+                <div class="price-container">
+                    <div class="price-range">$4</div>
+                    <span class="price-unit">per research request</span>
+                </div>
             </div>
 
-            <div class="service-card">
-                <div class="service-icon">
+            <div class="service-card" role="article" aria-labelledby="service3-title">
+                <div class="service-icon" aria-hidden="true">
                     <i class="fas fa-newspaper"></i>
                 </div>
-                <h3>Article Access Assistance</h3>
+                <h3 id="service3-title">Article Access Assistance</h3>
                 <p>We help you locate academic articles through legitimate sources such as university libraries, open-access repositories, or publisher platforms.</p>
                 <div class="legal-note">We guide you to legal access points; users are responsible for compliance with publisher terms.</div>
-                <div class="price-tag">$1~3/access</div>
+                <div class="price-container">
+                    <div class="price-range">$1–3</div>
+                    <span class="price-unit">per access assistance</span>
+                </div>
             </div>
 
-            <div class="service-card">
-                <div class="service-icon">
+            <div class="service-card" role="article" aria-labelledby="service4-title">
+                <div class="service-icon" aria-hidden="true">
                     <i class="fas fa-file-export"></i>
                 </div>
-                <h3>Format Conversion Service</h3>
+                <h3 id="service4-title">Format Conversion Service</h3>
                 <p>Convert between MOBI, EPUB, DOC, TXT, or PDF formats for personal use, provided you have legal rights to the original document.</p>
                 <div class="legal-note">We only convert documents you already legally possess for format compatibility.</div>
-                <div class="price-tag">$2/conversion</div>
+                <div class="price-container">
+                    <div class="price-range">$2</div>
+                    <span class="price-unit">per conversion</span>
+                </div>
             </div>
 
-            <div class="service-card">
-                <div class="service-icon">
+            <div class="service-card" role="article" aria-labelledby="service5-title">
+                <div class="service-icon" aria-hidden="true">
                     <i class="fas fa-file-pdf"></i>
                 </div>
-                <h3>OCR Conversion Service</h3>
+                <h3 id="service5-title">OCR Conversion Service</h3>
                 <p>Convert scanned PDFs into editable text using OCR technology, for documents you already own or have permission to modify.</p>
                 <div class="legal-note">Service available only for documents you have legal rights to process.</div>
-                <div class="price-tag">$3/document</div>
+                <div class="price-container">
+                    <div class="price-range">$3</div>
+                    <span class="price-unit">per document</span>
+                </div>
             </div>
 
-            <div class="service-card">
-                <div class="service-icon">
+            <div class="service-card" role="article" aria-labelledby="service6-title">
+                <div class="service-icon" aria-hidden="true">
                     <i class="fas fa-file-contract"></i>
                 </div>
-                <h3>Standards Research Assistance</h3>
+                <h3 id="service6-title">Standards Research Assistance</h3>
                 <p>We assist in locating publicly available industry standards or guiding you to authorized sources for standards acquisition.</p>
                 <div class="legal-note">We direct you to official standards bodies and authorized distributors only.</div>
-                <div class="price-tag">$4/research</div>
+                <div class="price-container">
+                    <div class="price-range">$4</div>
+                    <span class="price-unit">per research request</span>
+                </div>
             </div>
         </div>
 
-        <div class="disclaimer-section">
+        <div class="disclaimer-section" id="disclaimer">
             <h2><i class="fas fa-exclamation-triangle"></i> Important Legal Notice</h2>
             <p>This service is for educational and research purposes only. We operate within legal boundaries and respect intellectual property rights.</p>
             <p><strong>Key points to understand:</strong></p>
@@ -579,19 +731,19 @@
         <div class="contact-section">
             <h2>Contact us for research assistance</h2>
             <div class="social-buttons">
-                <a href="https://wa.me/message/MULRU2AQRLQFO1" class="social-btn whatsapp" target="_blank">
+                <a href="https://wa.me/message/MULRU2AQRLQFO1" class="social-btn whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
                     <span class="icon"><i class="fab fa-whatsapp"></i></span>
                     WhatsApp
                 </a>
-                <a href="https://t.me/BookFinderService" class="social-btn telegram" target="_blank">
+                <a href="https://t.me/BookFinderService" class="social-btn telegram" target="_blank" rel="noopener noreferrer" aria-label="Contact us on Telegram">
                     <span class="icon"><i class="fab fa-telegram-plane"></i></span>
                     Telegram
                 </a>
-                <a href="https://www.facebook.com/share/182ZBTdK4R/?mibextid=wwXIfr" class="social-btn facebook" target="_blank">
+                <a href="https://www.facebook.com/share/182ZBTdK4R/?mibextid=wwXIfr" class="social-btn facebook" target="_blank" rel="noopener noreferrer" aria-label="Contact us on Facebook">
                     <span class="icon"><i class="fab fa-facebook-f"></i></span>
                     Facebook
                 </a>
-                <a href="https://line.me/ti/p/zdK9m_KyXQ" class="social-btn line" target="_blank">
+                <a href="https://line.me/ti/p/zdK9m_KyXQ" class="social-btn line" target="_blank" rel="noopener noreferrer" aria-label="Contact us on Line">
                     <span class="icon"><i class="fab fa-line"></i></span>
                     Line
                 </a>
@@ -600,39 +752,77 @@
 
         <div class="footer">
             <p>© 2025 Research Assistance Service. All rights reserved.</p>
-            <p class="copyright-note">We respect intellectual property rights and operate within legal boundaries. This service provides research guidance only.</p>
         </div>
     </div>
 
     <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        const observerOptions = {
-            threshold: 0.1
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = 1;
-                    entry.target.style.transform = 'translateY(0)';
-                    observer.unobserve(entry.target);
+        // 使用事件委托提高性能
+        document.addEventListener('DOMContentLoaded', function() {
+            // 平滑滚动处理
+            document.addEventListener('click', function(e) {
+                const link = e.target.closest('a[href^="#"]');
+                if (link && link.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+                    const target = document.getElementById(targetId);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
                 }
             });
-        }, observerOptions);
-
-        document.querySelectorAll('.service-card').forEach(card => {
-            card.style.opacity = 0;
-            card.style.transform = 'translateY(20px)';
-            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-            observer.observe(card);
+            
+            // 优化动画观察器
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        requestAnimationFrame(() => {
+                            entry.target.style.opacity = 1;
+                            entry.target.style.transform = 'translateY(0)';
+                        });
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { 
+                threshold: 0.05,
+                rootMargin: '0px 0px -50px 0px'
+            });
+            
+            // 观察所有卡片
+            document.querySelectorAll('.service-card').forEach(card => {
+                card.style.opacity = 0;
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(card);
+            });
+            
+            // 移动端触摸优化
+            if ('ontouchstart' in window) {
+                document.querySelectorAll('.service-card').forEach(card => {
+                    card.addEventListener('touchstart', function() {
+                        this.style.transition = 'transform 0.2s ease';
+                    }, { passive: true });
+                });
+            }
+            
+            // 预加载优化
+            if ('loading' in HTMLImageElement.prototype) {
+                document.querySelectorAll('img').forEach(img => img.loading = 'lazy');
+            }
+        });
+        
+        // 错误处理
+        window.addEventListener('error', function(e) {
+            console.error('Page error:', e.error);
+        }, false);
+        
+        // 页面可见性变化处理
+        document.addEventListener('visibilitychange', function() {
+            if (document.visibilityState === 'visible') {
+                console.log('Page is now visible');
+            }
         });
     </script>
 </body>
